@@ -1,6 +1,11 @@
 // src/Calculadora.java
 public class Calculadora {
     public int soma(int a, int b) {
+        int resultado = somarInterno(a, b);
+        return resultado;
+    }
+
+    private int somarInterno(int a, int b) {
         return a + b;
     }
 
