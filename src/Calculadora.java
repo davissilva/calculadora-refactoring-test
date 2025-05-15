@@ -6,6 +6,7 @@ public class Calculadora {
     }
 
     private int somarInterno(int a, int b) {
+        System.out.println("Calculando a soma...");
         return a + b;
     }
 
