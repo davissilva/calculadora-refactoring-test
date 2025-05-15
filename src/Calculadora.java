@@ -1,12 +1,13 @@
 // src/Calculadora.java
 public class Calculadora {
     public int soma(int a, int b) {
+        System.out.println("Calculando a soma...");
         int resultado = somarInterno(a, b);
         return resultado;
     }
 
+
     private int somarInterno(int a, int b) {
-        System.out.println("Calculando a soma...");
         return a + b;
     }
 
