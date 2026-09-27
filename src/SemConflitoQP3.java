@@ -18,6 +18,6 @@ public class SemConflitoQP3 {
     // grupo 2 = arquivo modificado sem conflito
 
     public String gerarCodigo(String prefixo, int numero) {
-        return prefixo + "-" + numero;
+        return prefixo.toUpperCase() + "-" + numero;
     }
 }
