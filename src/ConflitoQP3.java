@@ -5,6 +5,6 @@ public class ConflitoQP3 {
     }
 
     private int somarInterno(int a, int b) {
-        return a + b;
+        return Math.addExact(a, b);
     }
 }
