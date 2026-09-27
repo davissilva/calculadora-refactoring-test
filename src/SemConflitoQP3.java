@@ -1,9 +1,13 @@
 public class SemConflitoQP3 {
 
     public double calcularDesconto(double valor) {
-        double desconto = valor * 0.10;
-        double resultado = valor - desconto;
+        double resultado = calcularValorComDesconto(valor);
         return resultado;
+    }
+
+    private double calcularValorComDesconto(double valor) {
+        double desconto = valor * 0.10;
+        return valor - desconto;
     }
 
     // Espaço proposital entre as regiões modificadas.
